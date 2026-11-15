@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>INCOMEX-TECH</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="css/bootstrap.min.css"rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/da2b23d9b9.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+
+
+<nav class="navbar navbar-expand-lg fixed-top" style="background-color:#2A2B65;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.php"><img src="imagenes/INCOMEX TECH BLANCO.png" width="158px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php" style="color: #FFFFFF">Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #FFFFFF">
+            Galería de proyectos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="galeriaProyectos.php#automatizacion" style="color:#2A2B65">Automatización <i class="fa-solid fa-microchip fa-sm" style="color: #2A2B65"></i></a></li>
+            <li><a class="dropdown-item" href="galeriaProyectos.php#controles" style="color:#2A2B65">Controles volumétricos <i class="fa-solid fa-gas-pump fa-sm" style="color: #2A2B65"></i></a></li>
+            <li><a class="dropdown-item" href="galeriaProyectos.php#integracionSCADA" style="color:#C02454">Integración de sistemas SCADA <i class="fa-solid fa-laptop-code fa-sm" style="color: ##C02454"></i></a></li>
+            <li><a class="dropdown-item" href="galeriaProyectos.php#Mantenimiento" style="color:#2A2B65">Mantenimiento y control <i class="fa-solid fa-screwdriver-wrench fa-sm" style="color: #2A2B65"></i></a></li>
+            <li><a class="dropdown-item" href="galeriaProyectos.php#CCTV" style="color:#2A2B65">Sistema CCTV <i class="fa-solid fa-video fa-sm" style="color: #2A2B65"></i></a></li>
+            <li><a class="dropdown-item" href="galeriaProyectos.php#sistemasIncendio" style="color:#2A2B65">Sistemas contra incendio <i class="fa-solid fa-fire-extinguisher fa-sm" style="color: #2A2B65"></i></a></li>
+            <li><a class="dropdown-item" href="galeriaProyectos.php#Telemedicion" style="color:#2A2B65">Telemedición <i class="fa-solid fa-tachograph-digital" style="color: #2A2B65"></i></a></li>
+            <li><a class="dropdown-item" href="galeriaProyectos.php#Transloaders" style="color:#2A2B65">Transloaders <i class="fa-solid fa-trailer" style="color: #2A2B65"></i></a></li>
+            <li><a class="dropdown-item" href="galeriaProyectos.php#Patines" style="color:#2A2B65">Patines de medición <i class="fa-solid fa-pallet fa-sm" style="color: #2A2B65"></i></a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hablaConNosotros.php" style="color: #FFFFFF">Habla con nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nosotros.php" style="color: #FFFFFF">Acerca de Incomex-Tech</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Agrega esto en el <head> -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+  /* Estilo de links */
+  .custom-link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .custom-link:hover {
+    color: #3b5998;
+  }
+</style>
+
+<div>
+  <div class="container">
+   <br><br><br><br><br><br><br>
+    <div class="row">
+      <h1 align="center" data-aos="fade-down" data-aos-duration="800">DATOS DE CONTACTO</h1><br>
+      <div class="col-sm-12 col-md-6 col-lg-6" align="center" data-aos="fade-right" data-aos-duration="800">
+        <div><br><br>
+          <h4 style="text-align: center">REDES SOCIALES</h4>
+          <p style="text-align: center; font-size: 20px" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+            <i class="fa-brands fa-facebook" style="color: #3b5998"></i>
+            <a href="https://www.facebook.com/IncomexTech" class="custom-link"> Incomex-Tech</a>
+          </p>
+          <p style="text-align: center; font-size: 20px" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            <i class="fa-brands fa-whatsapp" style="color:#7FFF1B"></i>
+            <a href="https://wa.me/525522710251" class="custom-link"> +52 55 2271 0251</a>
+          </p>
+          <p style="text-align: center; font-size: 20px" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+            <i class="fab fa-instagram" style="color: #C13584;"></i>
+            <a href="https://www.instagram.com/incomextech/?igshid=y0n13fysxiz2" class="custom-link"> incomextech</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4" align="center" data-aos="fade-left" data-aos-duration="800"><br><br>
+        <h4 style="text-align: center">CORREOS ELECTRÓNICOS</h4>      
+        <p style="text-align: center; font-size: 20px" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+          <i class="fa-solid fa-user-tie"></i>
+          <a href="mailto:ricardo.poblano@incomex-tech.com" class="custom-link"> ricardo.poblano@incomex-tech.com</a>
+        </p>
+        <p style="text-align: center; font-size: 20px" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+          <i class="fa-solid fa-people-group"></i>
+          <a href="mailto:administracion@incomex-tech.com" class="custom-link"> administracion@incomex-tech.com</a>
+        </p>
+        <p style="text-align: center; font-size: 20px" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+          <i class="fa-solid fa-comments-dollar"></i>
+          <a href="mailto:ventas@incomex-tech.com" class="custom-link"> ventas@incomex-tech.com</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6" align="center" data-aos="fade-right" data-aos-duration="800">
+        <div><br><br>
+          <h4 style="text-align: center">TELÉFONO</h4>
+          <p style="text-align: center; font-size: 20px" data-aos="fade-up" data-aos-duration="800">
+            <i class="fa-solid fa-phone"></i> (227-688-1019)
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-5 col-lg-4" align="center" id="horario" data-aos="fade-left" data-aos-duration="800"><br><br>
+        <h4 style="text-align: center">HORARIOS DE ATENCIÓN</h4>      
+        <p style="text-align: center; font-size: 20px" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+          <i class="fa-solid fa-clock"></i> Lunes a viernes 8:00AM - 6:00PM
+        </p>
+        <p style="text-align: center; font-size: 20px" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+          <i class="fa-solid fa-clock"></i> Sábados 8:00AM - 1:00PM
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div id="FondoAzul" data-aos="fade-up" data-aos-duration="800">
+  <br>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-10 col-lg-10" align="center">
+        <h1 style="color:#FFFFFF" data-aos="fade-down" data-aos-duration="800">CONTÁCTANOS<br><i class="fa-solid fa-user-tie"></i></h1><br>
+        <form action="hablaConNosotros.php" method="POST" data-aos="zoom-in" data-aos-duration="800">
+          <div class="mb-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+            <label for="name" class="form-label" style="color: #FFFFFF">Nombre</label>
+            <input type="text" name="name" class="form-control" id="name" placeholder="Nombre">
+          </div>
+          <div class="mb-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            <label for="name" class="form-label" style="color: #FFFFFF">Teléfono</label>
+            <input type="tel" name="phone" class="form-control" id="phone" placeholder="10 dígitos" onkeypress="ValidaSoloNumeros()" maxlength="10">
+          </div>
+          <div class="mb-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+            <label for="exampleInputPassword1" class="form-label" style="color: #FFFFFF">Correo Electrónico</label>
+            <input type="email" name="email" class="form-control" id="email" placeholder="ejemplo@gmail.com">
+          </div>
+          <div class="mb-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+            <label for="exampleInputPassword1" class="form-label"></label>
+            <textarea class="form-control" name="message" id="message" cols="40" rows="5" placeholder="Mensaje"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit" value="enviar" name="enviar" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">Enviar</button>
+        </form>
+        <br><br><br>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Scripts AOS (antes del footer) -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        once: true,
+        easing: 'ease-out-back',
+        offset: 120,
+        duration: 800
+    });
+</script>
+
+<style>
+    /* Estilos del chatbot */
+    #chatbot-btn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background: linear-gradient(135deg, #2A2B65 0%, #3A3B85 100%);
+        color: white;
+        border: none;
+        border-radius: 30px;
+        padding: 15px 25px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 600;
+        z-index: 1000;
+        transition: all 0.3s ease;
+    }
+
+    #chatbot-btn * {
+        pointer-events: none;
+    }
+
+    #chatbot-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    #chatbot-container {
+        display: none;
+        position: fixed;
+        bottom: 100px;
+        right: 30px;
+        width: 380px;
+        max-width: 90%;
+        height: 650px;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        flex-direction: column;
+        overflow: hidden;
+        z-index: 1000;
+        border: 1px solid #e0e0e0;
+    }
+
+    #chat-header {
+        background: linear-gradient(135deg, #2A2B65 0%, #3A3B85 100%);
+        color: white;
+        padding: 15px 20px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #chat-header .close-btn {
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    #chat-messages {
+        flex: 1;
+        padding: 20px;
+        overflow-y: auto;
+        background: #f9f9f9;
+    }
+
+    .mensaje-bot {
+        background: white;
+        border-radius: 15px 15px 15px 5px;
+        padding: 12px 15px;
+        margin-bottom: 15px;
+        max-width: 80%;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        border: 1px solid #e0e0e0;
+        position: relative;
+    }
+
+    .mensaje-bot:before {
+        content: "";
+        position: absolute;
+        left: -8px;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-top: 10px solid white;
+        border-left: 10px solid transparent;
+    }
+
+    .mensaje-usuario {
+        background: #2A2B65;
+        color: white;
+        border-radius: 15px 15px 5px 15px;
+        padding: 12px 15px;
+        margin-left: auto;
+        margin-bottom: 15px;
+        max-width: 80%;
+        position: relative;
+    }
+
+    .mensaje-usuario:after {
+        content: "";
+        position: absolute;
+        right: -8px;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-top: 10px solid #2A2B65;
+        border-right: 10px solid transparent;
+    }
+
+    .separador {
+        text-align: center;
+        color: #999;
+        margin: 10px 0;
+        font-size: 12px;
+    }
+
+    .cargando {
+        color: #666;
+        font-style: italic;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #chat-input-container {
+        display: flex;
+        padding: 15px;
+        background: white;
+        border-top: 1px solid #e0e0e0;
+    }
+
+    #chat-input {
+        flex: 1;
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        border-radius: 25px;
+        outline: none;
+        transition: all 0.3s;
+    }
+
+    #chat-input:focus {
+        border-color: #2A2B65;
+    }
+
+    #chat-send {
+        background: #2A2B65;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        padding: 0 20px;
+        margin-left: 10px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    #chat-send:hover {
+        background: #3A3B85;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .mensaje-bot, .mensaje-usuario {
+        animation: fadeIn 0.3s ease-out;
+    }
+
+    /* Botones de sugerencia (modificados para ser más pequeños) */
+    .suggestion-buttons {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 5px;
+        padding: 5px 10px;
+        background: #f5f5f5;
+    }
+
+    .suggestion-btn {
+        background: #e0e0e0;
+        border: none;
+        border-radius: 15px;
+        padding: 5px 8px;
+        font-size: 0.7em;
+        cursor: pointer;
+        transition: all 0.2s;
+        white-space: nowrap;
+    }
+
+    .suggestion-btn:hover {
+        background: #2A2B65;
+        color: white;
+    }
+
+    /* Estilos ORIGINALES para botones de servicios */
+    .servicios-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 10px;
+        background: white;
+        border-radius: 15px;
+        margin: 10px 0;
+        border: 1px solid #e0e0e0;
+    }
+
+    .servicio-btn {
+        background: #f0f0f0;
+        border: 1px solid #2A2B65;
+        color: #2A2B65;
+        transition: all 0.2s;
+        white-space: nowrap;
+        margin: 3px 0;
+        padding: 8px 12px;
+        font-size: 0.8em;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .servicio-btn:hover {
+        background: #2A2B65;
+        color: white;
+    }
+
+    .welcome-message {
+        background: #2A2B65;
+        color: white;
+        border-radius: 15px;
+        padding: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .cotizar-servicio-btn {
+        background: #2A2B65;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-top: 10px;
+        font-size: 0.9em;
+        transition: all 0.3s;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .cotizar-servicio-btn:hover {
+        background: #3A3B85;
+        transform: translateY(-2px);
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+
+    .otro-servicio-btn {
+        background: #6c757d !important;
+        color: white !important;
+        border: none !important;
+        padding: 8px 15px !important;
+        border-radius: 20px !important;
+        cursor: pointer !important;
+        font-size: 0.9em !important;
+        transition: all 0.3s !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 5px !important;
+    }
+
+    .otro-servicio-btn:hover {
+        background: #5a6268 !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1) !important;
+    }
+
+    .botones-servicio-container {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+    .mensaje-especializacion {
+        margin-top: 15px;
+        padding: 12px;
+        background: #f0f8ff;
+        border-radius: 10px;
+        border-left: 4px solid #2A2B65;
+        font-size: 0.9em;
+    }
+
+    #formulario-cotizacion input, 
+    #formulario-cotizacion textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-family: inherit;
+    }
+
+    #formulario-cotizacion textarea {
+        height: 100px;
+        resize: vertical;
+    }
+
+    .botones-formulario {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .boton-enviar {
+        background: #2A2B65;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        flex: 1;
+        transition: background 0.3s;
+    }
+
+    .boton-cancelar {
+        background: #e0e0e0;
+        color: #333;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        flex: 1;
+        transition: background 0.3s;
+    }
+
+    .boton-enviar:hover {
+        background: #3A3B85;
+    }
+
+    .boton-cancelar:hover {
+        background: #d0d0d0;
+    }
+
+    .error-mensaje {
+        color: #d32f2f;
+        font-size: 0.8em;
+        margin-top: -8px;
+        margin-bottom: 10px;
+        display: none;
+    }
+
+    @media (max-width: 480px) {
+        #chatbot-container {
+            width: 95%;
+            height: 75vh;
+            bottom: 20px;
+            right: 2.5%;
+        }
+        
+        #chatbot-btn {
+            bottom: 20px;
+            right: 20px;
+        }
+    }
+</style>
+
+<!-- Botón flotante del chatbot -->
+<button id="chatbot-btn">
+  <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="Chatbot" style="width: 24px; height: 24px;">
+  <span>Asistente Virtual</span>
+</button>
+
+<!-- Contenedor del chatbot -->
+<div id="chatbot-container">
+  <div id="chat-header">
+    <span>Asistente Virtual Incomex-Tech</span>
+    <span class="close-btn">×</span>
+  </div>
+  <div id="chat-messages"></div>
+  <div class="suggestion-buttons">
+    <button class="suggestion-btn">Servicios</button>
+    <button class="suggestion-btn">Ubicación</button>
+    <button class="suggestion-btn">Contacto</button>
+    <button class="suggestion-btn">Cotización</button>
+  </div>
+  <div id="chat-input-container">
+    <input type="text" id="chat-input" placeholder="Escribe tu mensaje..." autocomplete="off">
+    <button id="chat-send"><i class="fa-solid fa-paper-plane"></i></button>
+  </div>
+</div>
+
+<script>
+  let chatAbierto = false;
+
+  const chatbotBtn = document.getElementById('chatbot-btn');
+  const chatbotContainer = document.getElementById('chatbot-container');
+  const closeBtn = document.querySelector('.close-btn');
+  const chatMessages = document.getElementById('chat-messages');
+  const chatInput = document.getElementById('chat-input');
+  const chatSend = document.getElementById('chat-send');
+  const suggestionBtns = document.querySelectorAll('.suggestion-btn');
+
+  // Función para generar el HTML de cada servicio
+  function generarHTMLServicio(titulo, descripcion) {
+      return `
+          <strong>${titulo}</strong><br><br>
+          ¿QUÉ PODEMOS OFRECER?<br><br>
+          ${descripcion}<br><br>
+          <div class="botones-servicio-container">
+              <button class="cotizar-servicio-btn" data-servicio="${titulo}">
+                  <i class="fa-solid fa-file-invoice-dollar"></i> Cotizar este servicio
+              </button>
+              <button class="otro-servicio-btn">
+                  <i class="fa-solid fa-arrow-left"></i> Ver otros servicios
+              </button>
+          </div>
+          <div class="mensaje-especializacion">
+              🧠 Puedo ayudarte con cualquier tipo de información. Me especializo en el área industrial y puedo ofrecerte soporte preciso y especializado.
+          </div>
+      `;
+  }
+
+// Objeto con todos los servicios y sus respuestas
+  const servicios = {
+      "AUTOMATIZACIÓN": generarHTMLServicio(
+          "AUTOMATIZACIÓN",
+          `• Tableros de control<br>
+           • Control de accesos<br>
+           • Diseño e implementación de sistemas DCS y PLC<br>
+           • Montaje de unidad de control local UCL<br>
+           • Implementación de sistemas SCADA<br>
+           • Integración con sensores y dispositivos IoT`
+      ),
+      "INTEGRACIÓN DE SISTEMAS SCADA": generarHTMLServicio(
+          "INTEGRACIÓN DE SISTEMAS SCADA",
+          `• Sistema <strong>SCADA SCAZEN</strong> <br>
+           • Plataforma web y móvil<br>
+           • Reportes de carga y descarga<br>
+           • Generacion de facturas<br>
+           • Servicios de soporte y mantenimiento<br>
+           • Independencia de plataforma (multi-sistema operativo)<br>
+           • Tecnologías utilizadas: MySQL, HTML5, PHP y CSS3`
+      ),
+      "MANTENIMIENTO Y CONTROL": generarHTMLServicio(
+          "MANTENIMIENTO Y CONTROL",
+          `• Mantenimiento preventivo y correctivo<br>
+           • Reemplazo de Componentes Críticos<br>
+           • Mantenimiento de instalaciones eléctricas<br>
+           • Mantenimiento a equipo de medición y bombeo<br>
+           • Calibración y Mantenimiento de Instrumentos<br>
+           • Sistemas avanzados de control de procesos`
+      ),
+      "SISTEMA CCTV": generarHTMLServicio(
+          "SISTEMA CCTV",
+          `• Suministro de equipos<br>
+           • Instalación de grabadores de video en red (NVR)<br>
+           • Monitoreo remoto en tiempo real<br>
+           • Tecnología de visión nocturna<br>
+           • Almacenamiento y gestión avanzada de video<br>
+           • Equipos resistentes a condiciones ambientales adversas<br>
+           • Acondicionamiento técnico para entornos específicos<br>
+           • Control remoto de cámaras`
+      ),
+      "SISTEMAS CONTRA INCENDIO": generarHTMLServicio(
+          "SISTEMAS CONTRA INCENDIO",
+          `• Instalación de detectores (humo, calor y llama)<br>
+           • Instalación de equipos de contra incendios<br>
+           • Montaje de redes de tuberías (sistemas hidráulicos y eléctricos)<br>
+           • Implementación de alarmas (señales sonoras y visuales)<br>
+           • Mantenimiento a equipos y tanques de bombeo<br>
+           • Instalación de bombas y valvulas<br>`
+      ),
+      "TELEMEDICIÓN": generarHTMLServicio(
+          "TELEMEDICIÓN",
+          `• Suministro de equipos<br>
+           • Instalación de equipos de telemedición de última generación.<br>
+           • Configuración de equipos de telemedición<br>
+           • Puesta en marcha e integración de sistemas<br>
+           • Implementación de monitoreo en tiempo real<br>
+           • Instalación de sensores de última generación<br>
+           • Sistemas de medición remota<br>
+           • Despliegue de infraestructura de comunicación`
+      ),
+      "CONTROLES VOLUMÉTRICOS DEL SAT": generarHTMLServicio(
+          "CONTROLES VOLUMÉTRICOS DE ACUERDO A LA NORMATIVA DEL SAT",
+          `• Asesorias<br>
+           • Modularidad, Flexibilidad y Escalable<br>
+           • Conectividades Y Rapidez <br>
+           • Aplicación Web y Móvil<br>
+           • Generación de reportes<br>
+           • Información para facturación<br>
+           • Reportes<br>
+           • Selección de producto y cantidad en litros totales de los tanques<br>
+           • Eventos<br>
+           • Operaciones del día`
+      ),
+      "TRANSLOADERS": generarHTMLServicio(
+          "TRANSLOADERS",
+          `• Integración a su sistema de monitoreo actual<br>
+           • Diseño y construcción de sistemas a medida<br>
+           • Capacitación y soporte técnico durante puesta en marcha<br>
+           • Mantenimiento preventivo y correctivo<br>
+           • Integración con sistemas SCADA para monitoreo remoto<br>
+           • Cumplimiento de estándares de seguridad y ambientales<br>
+           • Instrumentación avanzada para control de procesos<br>
+           • Montaje de equipos de control y automatización`
+      ),
+      "PATINES DE MEDICIÓN": generarHTMLServicio(
+          "PATINES DE MEDICIÓN",
+          `• Integración a su sistema de monitoreo actual<br>
+           • Diseño y construcción según las necesidades específicas del cliente<br>
+           • Entrenamiento y asistencia de operación de equipos<br>
+           • Mantenimiento<br>
+           • Uso de medidores de flujo, densímetros y otros instrumentos de alta precisión<br>
+           • Automatización de procesos<br>
+           • Estructura modular que permite una fácil instalación, expansión y mantenimiento<br>
+           • Cumplimiento normativo`
+      )
+  };
+  
+  // Textos para los botones de sugerencia
+  const textosSugerencias = [
+    'Servicios',
+    'Ubicación',
+    'Contacto',
+    'Cotización'
+  ];
+
+  function abrirChat() {
+    chatAbierto = true;
+    chatbotContainer.style.display = 'flex';
+    chatbotBtn.style.display = 'none';
+    chatInput.focus();
+
+    if (chatMessages.children.length === 0) {
+      const welcomeMsg = document.createElement('div');
+      welcomeMsg.className = 'welcome-message';
+      welcomeMsg.innerHTML = `
+      ¡Hola! Soy el asistente virtual de Incomex-Tech.<br>
+        ¿En qué puedo ayudarte hoy?
+      `;
+      chatMessages.appendChild(welcomeMsg);
+    }
+  }
+
+  function cerrarChat() {
+    chatAbierto = false;
+    chatbotContainer.style.display = 'none';
+    chatbotBtn.style.display = 'flex';
+  }
+
+  function mostrarMensaje(texto, tipo) {
+    const mensajeDiv = document.createElement('div');
+    mensajeDiv.className = `mensaje-${tipo}`;
+    mensajeDiv.innerHTML = `<strong>${tipo === 'usuario' ? 'Tú' : 'Asistente'}:</strong> ${texto}`;
+    chatMessages.appendChild(mensajeDiv);
+  }
+
+  function mostrarBotonesServicios() {
+    // Limpiar el chat antes de mostrar los servicios
+    while (chatMessages.firstChild) {
+        chatMessages.removeChild(chatMessages.firstChild);
+    }
+    
+    // Limpia el input
+    chatInput.value = '';
+    
+    // Crea contenedor para botones de servicios
+    const serviciosContainer = document.createElement('div');
+    serviciosContainer.className = 'suggestion-buttons servicios-container';
+    
+    // Agrega título
+    const titulo = document.createElement('div');
+    titulo.className = 'mensaje-bot';
+    titulo.innerHTML = '<strong>Selecciona un servicio para ver detalles:</strong>';
+    chatMessages.appendChild(titulo);
+    
+    // Crea botones para cada servicio
+    Object.keys(servicios).forEach(servicio => {
+      const btn = document.createElement('button');
+      btn.className = 'suggestion-btn servicio-btn';
+      btn.textContent = servicio;
+      btn.addEventListener('click', () => {
+        // Muestra la respuesta directamente sin enviar al backend
+        const respuestaDiv = document.createElement('div');
+        respuestaDiv.className = 'mensaje-bot';
+        respuestaDiv.innerHTML = servicios[servicio];
+        chatMessages.appendChild(respuestaDiv);
+        
+        // Scroll suave hasta el inicio del mensaje del servicio
+        setTimeout(() => {
+            respuestaDiv.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }, 100);
+        
+        // Agrega el event listener para los botones recién creados
+        setTimeout(() => {
+          document.querySelectorAll('.cotizar-servicio-btn').forEach(cotizarBtn => {
+            cotizarBtn.addEventListener('click', function() {
+              const servicio = this.getAttribute('data-servicio');
+              mostrarFormularioCotizacion(servicio);
+            });
+          });
+        }, 100);
+      });
+      serviciosContainer.appendChild(btn);
+    });
+    
+    chatMessages.appendChild(serviciosContainer);
+    
+    // Scroll suave hasta el título de servicios
+    setTimeout(() => {
+        titulo.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }, 100);
+  }
+
+  function mostrarFormularioCotizacion(servicio = '') {
+    // Limpiar el input
+    chatInput.value = '';
+    
+    // Crear mensaje del asistente
+    const mensajeAsistente = document.createElement('div');
+    mensajeAsistente.className = 'mensaje-bot';
+    mensajeAsistente.innerHTML = `
+        <strong>Cotización${servicio ? ' para ' + servicio : ''}</strong><br><br>
+        Por favor proporcione los siguientes detalles:<br>
+        <div id="formulario-cotizacion" style="margin-top:15px;">
+            <input type="text" id="nombre-cotizacion" placeholder="Tu nombre completo" required><br>
+            <div id="error-nombre" class="error-mensaje">Por favor ingresa tu nombre</div>
+            
+            <input type="email" id="email-cotizacion" placeholder="Tu correo electrónico" required><br>
+            <div id="error-email" class="error-mensaje">Por favor ingresa un email válido</div>
+            
+            <input type="tel" id="telefono-cotizacion" placeholder="Tu número de teléfono" required><br>
+            <div id="error-telefono" class="error-mensaje">Por favor ingresa un teléfono válido</div>
+            
+            <textarea id="detalles-cotizacion" placeholder="Por favor proporcione al menos 20 caracteres en los detalles de su solicitud" required></textarea><br>
+            <div id="error-detalles" class="error-mensaje">Por favor proporcione al menos 20 caracteres en los detalles de su solicitud</div>
+            
+            <input type="hidden" id="servicio-cotizacion" value="${servicio}">
+            <div class="botones-formulario">
+                <button id="enviar-cotizacion" class="boton-enviar">Enviar solicitud</button>
+                <button id="cancelar-cotizacion" class="boton-cancelar">Cancelar</button>
+            </div>
+        </div>
+    `;
+    chatMessages.appendChild(mensajeAsistente);
+    
+    // Scroll suave hasta el formulario
+    setTimeout(() => {
+        mensajeAsistente.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }, 100);
+    
+    // Event listener para el botón de enviar
+    document.getElementById('enviar-cotizacion').addEventListener('click', enviarCotizacion);
+    
+    // Event listener para el botón de cancelar (mejorado)
+    document.getElementById('cancelar-cotizacion').addEventListener('click', function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+        
+        // Elimina solo el formulario
+        const formulario = document.getElementById('formulario-cotizacion');
+        if (formulario) {
+            formulario.parentNode.remove();
+        }
+        
+        // Muestra los servicios nuevamente
+        mostrarBotonesServicios();
+    });
+    
+    // Validación en tiempo real
+    document.getElementById('nombre-cotizacion').addEventListener('input', validarNombre);
+    document.getElementById('email-cotizacion').addEventListener('input', validarEmail);
+    document.getElementById('telefono-cotizacion').addEventListener('input', validarTelefono);
+    document.getElementById('detalles-cotizacion').addEventListener('input', validarDetalles);
+  }
+
+  function validarNombre() {
+    const nombre = document.getElementById('nombre-cotizacion').value.trim();
+    const error = document.getElementById('error-nombre');
+    
+    if (nombre.length < 3) {
+        error.style.display = 'block';
+        return false;
+    } else {
+        error.style.display = 'none';
+        return true;
+    }
+  }
+
+  function validarEmail() {
+    const email = document.getElementById('email-cotizacion').value.trim();
+    const error = document.getElementById('error-email');
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    
+    if (!emailRegex.test(email)) {
+        error.style.display = 'block';
+        return false;
+    } else {
+        error.style.display = 'none';
+        return true;
+    }
+  }
+
+  function validarTelefono() {
+    const telefono = document.getElementById('telefono-cotizacion').value.trim();
+    const error = document.getElementById('error-telefono');
+    const telefonoRegex = /^[0-9]{8,15}$/;
+    
+    if (!telefonoRegex.test(telefono)) {
+        error.style.display = 'block';
+        return false;
+    } else {
+        error.style.display = 'none';
+        return true;
+    }
+  }
+
+  function validarDetalles() {
+    const detalles = document.getElementById('detalles-cotizacion').value.trim();
+    const error = document.getElementById('error-detalles');
+    
+    if (detalles.length < 20) {
+        error.textContent = 'Por favor proporcione al menos 20 caracteres en los detalles de su solicitud';
+        error.style.display = 'block';
+        return false;
+    } else {
+        error.style.display = 'none';
+        return true;
+    }
+  }
+
+  function validarFormulario() {
+    const valido = 
+        validarNombre() && 
+        validarEmail() && 
+        validarTelefono() && 
+        validarDetalles();
+    
+    return valido;
+  }
+
+  async function enviarCotizacion() {
+    if (!validarFormulario()) {
+        const errorDiv = document.createElement('div');
+        errorDiv.className = 'mensaje-bot error';
+        errorDiv.innerHTML = '<strong>Error:</strong> Por favor complete todos los campos correctamente, asegurándose de incluir al menos 20 caracteres en los detalles.';
+        chatMessages.appendChild(errorDiv);
+        return;
+    }
+    
+    const nombre = document.getElementById('nombre-cotizacion').value.trim();
+    const email = document.getElementById('email-cotizacion').value.trim();
+    const telefono = document.getElementById('telefono-cotizacion').value.trim();
+    const detalles = document.getElementById('detalles-cotizacion').value.trim();
+    const servicio = document.getElementById('servicio-cotizacion').value.trim();
+    
+    const cargaDiv = document.createElement('div');
+    cargaDiv.className = 'cargando';
+    cargaDiv.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando solicitud...';
+    chatMessages.appendChild(cargaDiv);
+    
+    try {
+        const response = await fetch('backend.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: `accion=enviar_cotizacion&nombre=${encodeURIComponent(nombre)}&email=${encodeURIComponent(email)}&telefono=${encodeURIComponent(telefono)}&detalles=${encodeURIComponent(detalles)}&servicio=${encodeURIComponent(servicio)}`
+        });
+        
+        cargaDiv.remove();
+        const data = await response.json();
+        
+        if (data.error) {
+            mostrarMensaje(data.error, 'bot');
+        } else {
+            mostrarMensaje(data.mensaje, 'bot');
+            document.getElementById('formulario-cotizacion').style.display = 'none';
+        }
+    } catch (error) {
+        cargaDiv.remove();
+        mostrarMensaje('Error al enviar la solicitud. Por favor intente nuevamente.', 'bot');
+        console.error('Error:', error);
+    }
+  }
+
+  function enviarSugerencia(texto, index) {
+    if (texto === 'Servicios') {
+      mostrarBotonesServicios();
+    } else if (texto === 'Cotización') {
+      mostrarFormularioCotizacion();
+    } else {
+      chatInput.value = textosSugerencias[index];
+      enviarMensaje();
+    }
+  }
+
+  async function enviarMensaje() {
+    const mensaje = chatInput.value.trim();
+    if (!mensaje) return;
+
+    mostrarMensaje(mensaje, 'usuario');
+    chatInput.value = '';
+
+    const cargaDiv = document.createElement('div');
+    cargaDiv.className = 'cargando';
+    cargaDiv.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Pensando...';
+    chatMessages.appendChild(cargaDiv);
+
+    try {
+      const response = await fetch('backend.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: 'mensaje=' + encodeURIComponent(mensaje),
+      });
+
+      cargaDiv.remove();
+      const data = await response.json();
+
+      if (data.error) {
+        mostrarMensaje(data.error, 'bot');
+      } else {
+        const separador = document.createElement('div');
+        separador.className = 'separador';
+        separador.innerHTML = '---';
+        chatMessages.appendChild(separador);
+        mostrarMensaje(data.respuesta, 'bot');
+        
+        // Scroll suave hasta el primer mensaje del asistente
+        setTimeout(() => {
+          const mensajesBot = document.querySelectorAll('.mensaje-bot');
+          if (mensajesBot.length > 0) {
+            mensajesBot[mensajesBot.length - 1].scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        }, 100);
+      }
+    } catch (error) {
+      cargaDiv.remove();
+      mostrarMensaje('Error de conexión. Intenta nuevamente.', 'bot');
+      console.error('Error:', error);
+    }
+  }
+
+  // Event listeners
+  chatbotBtn.addEventListener('click', abrirChat);
+  closeBtn.addEventListener('click', cerrarChat);
+  chatSend.addEventListener('click', enviarMensaje);
+  chatInput.addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+      enviarMensaje();
+    }
+  });
+
+  suggestionBtns.forEach((btn, index) => {
+    btn.addEventListener('click', () => enviarSugerencia(textosSugerencias[index], index));
+  });
+
+  document.addEventListener('click', function(e) {
+    if (!chatAbierto) return;
+    
+    // Verificar si el clic fue en el formulario
+    const formulario = document.getElementById('formulario-cotizacion');
+    const esClicEnFormulario = formulario && formulario.contains(e.target);
+    
+    // Solo cerrar si no es en el chatbot ni en el formulario
+    if (!chatbotContainer.contains(e.target) && 
+        e.target !== chatbotBtn && 
+        !esClicEnFormulario) {
+      cerrarChat();
+    }
+  });
+
+  // Event listener para el botón "Ver otros servicios"
+  document.addEventListener('click', function(e) {
+      if (e.target.classList.contains('otro-servicio-btn') || 
+          e.target.closest('.otro-servicio-btn')) {
+          mostrarBotonesServicios();
+      }
+  });
+</script>
+<!--Footer-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>INCOMEX-TECH | Soluciones Tecnológicas</title>
+    <link rel="icon" href="favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts (Poppins para títulos, Open Sans para texto) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/da2b23d9b9.js" crossorigin="anonymous"></script>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            color: #2A2B65;
+        }
+        
+        /* Navbar */
+        .navbar {
+            padding: 10px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .navbar-brand img {
+            transition: transform 0.3s;
+        }
+        .navbar-brand:hover img {
+            transform: scale(1.05);
+        }
+        .nav-link {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            margin: 0 8px;
+            position: relative;
+        }
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background: #fff;
+            bottom: 0;
+            left: 0;
+            transition: width 0.3s;
+        }
+        .nav-link:hover:after {
+            width: 100%;
+        }
+        .dropdown-menu {
+            border: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            background-color: #fff;
+        }
+        .dropdown-item {
+            font-family: 'Open Sans', sans-serif;
+            color: #2A2B65 !important;
+            font-weight: 500;
+            padding: 8px 15px;
+        }
+        .dropdown-item:hover {
+            background-color: #f8f9fa;
+            color: #C02454 !important;
+        }
+        .scada-item {
+            color: #C02454 !important;
+            font-weight: 600;
+        }
+        .dropdown-divider {
+            border-color: #e9ecef;
+        }
+        .nav-link i {
+            margin-right: 8px;
+            width: 20px;
+            text-align: center;
+        }
+        
+        /* Footer */
+        .footer {
+            background-color: #2A2B65;
+            color: white;
+            padding: 40px 0;
+        }
+        .footer-col h4 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .footer-col h4::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background: #C02454;
+            height: 2px;
+            width: 50px;
+        }
+        .footer-col ul li {
+            margin-bottom: 10px;
+        }
+        .footer-col ul li a {
+            color: #B0B0B0;
+            transition: all 0.3s ease;
+        }
+        .footer-col ul li a:hover {
+            color: white;
+            padding-left: 5px;
+        }
+        .social-links a {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            background-color: rgba(255,255,255,0.1);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            color: white;
+            transition: all 0.5s ease;
+        }
+        .social-links a:hover {
+            color: #2A2B65;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #2A2B65;">
+  <div class="container">
+    <a class="navbar-brand" href="index.php">
+        <img src="imagenes/INCOMEX TECH BLANCO.png" width="158" alt="INCOMEX TECH">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.php">Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-images"></i>Galería de proyectos
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="galeriaProyectos.php#automatizacion"><i class="fa-solid fa-microchip"></i>Automatización</a></li>
+            <li><a class="dropdown-item" href="galeriaProyectos.php#controles"><i class="fa-solid fa-gas-pump"></i>Controles volumétricos</a></li>
+            <li><a class="dropdown-item scada-item" href="galeriaProyectos.php#integracionSCADA"><i class="fa-solid fa-laptop-code"></i>Integración SCADA</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="galeriaProyectos.php#Mantenimiento"><i class="fa-solid fa-screwdriver-wrench"></i>Mantenimiento</a></li>
+            <li><a class="dropdown-item" href="galeriaProyectos.php#CCTV"><i class="fa-solid fa-video"></i>Sistema CCTV</a></li>
+            <li><a class="dropdown-item" href="galeriaProyectos.php#sistemasIncendio"><i class="fa-solid fa-fire-extinguisher"></i>Sistemas contra incendio</a></li>
+            <li><a class="dropdown-item" href="galeriaProyectos.php#Telemedicion"><i class="fa-solid fa-tachograph-digital"></i>Telemedición</a></li>
+            <li><a class="dropdown-item" href="galeriaProyectos.php#Transloaders"><i class="fa-solid fa-trailer"></i>Transloaders</a></li>
+            <li><a class="dropdown-item" href="galeriaProyectos.php#Patines"><i class="fa-solid fa-pallet"></i>Patines de medición</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="destacados.php"><i class="fas fa-star"></i>Proyectos destacados</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hablaConNosotros.php"><i class="fas fa-comments"></i>Habla con nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nosotros.php"><i class="fas fa-info-circle"></i>Acerca de nosotros</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Contenido principal -->
+<main class="container mt-5 pt-4">
+  <!-- Tu contenido principal aquí -->
+</main>
+
+<!-- Pie de página -->
+<footer class="footer">
+ <div class="container">
+  <div class="row justify-content-center">
+    <div class="footer-col">
+      <div class="row">
+      <ul>
+        <a class="navbar-brand" href="index.php"><img src="imagenes/INCOMEX TECH BLANCO.png" width="165px"></a>
+        <br>
+        <br>
+        <br>
+        <img src="imagenes/E_REPSE_HOME.png" width="165px">
+      </ul>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Ir a</h4>
+      <div class="row">
+      <ul>
+        <li><a href="index.php"><i class="fa-solid fa-bars" style="color: #FFFFFF;"></i> Inicio</a></li>
+        <li><a href="galeriaProyectos.php"><i class="fa-solid fa-image" style="color: #FFFFFF"></i> Galería de proyectos</a></li>
+        <li><a href="hablaConNosotros.php"><i class="fa-solid fa-address-book" style="color: #FFFFFF;"></i> Habla con nosotros</a></li>
+        <li><a href="nosotros.php"><i class="fa-solid fa-users" style="color: #FFFFFF;"></i> Acerca de Incomex-Tech</a></li>
+      </ul>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <div class="row">
+      <ul>
+        <li><a  href="tel:2276881019"><i class="fa-solid fa-phone" style="color: #FFFFFF;"></i> Teléfono  (227-688-1019)</a></li>
+        <li><a href="contacto.html"><i class="fa-solid fa-clock" style="color: #FFFFFF"></i></i> Lunes a Viernes de 8:00AM a 6:00PM<br>
+        Sábados de 8:00AM a 1:00PM</a></li>
+        <li><p style="color: #B0B0B0"><i class="fa-solid fa-location-dot" style="color: #FFFFFF;"></i> Huejotzingo, Puebla</p></li>
+      </ul>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Redes Sociales</h4>
+      <div class="social-links">
+        <a href="https://www.facebook.com/IncomexTech"><i class="fab fa-facebook-f" style="color: #1877F2;"></i></a>
+        <a href="https://www.instagram.com/incomextech/?igshid=y0n13fysxiz2"><i class="fab fa-instagram" style="color: #C13584;"></i></a>
+        <a href="https://wa.me/525522710251"><i class="fab fa-whatsapp" style="color: #25D366;"></i></a>
+        <a href="tel:2276881019"><i class="fa-solid fa-phone" style="color: #FFFFFF"></i></a>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+<h5 align="center" style="color: #FFFFFF">©2024 Incomex-Tech Derechos reservados</h5>
+<p align="center" style="color: #FFFFFF">Design By &nbsp;e.galindo039@gmail.com</p>    
+</footer>
+
+<!-- Bootstrap JS Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

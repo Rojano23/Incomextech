@@ -1,0 +1,6 @@
+{
+  "name": "INCOMEX-TECH | Ingeniería, Control y Mantenimiento Industrial",
+  "description": "Soluciones integrales de automatización industrial, integración SCADA, controles volumétricos SAT, telemedición y mantenimiento para el sector energético e industrial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
